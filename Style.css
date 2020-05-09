@@ -1,0 +1,288 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+ .header {
+       
+        background-color: blue;
+        display: flex;
+flex-direction: row;
+justify-content: space-between; 
+text-align: center;
+    } 
+
+
+    #para {
+        padding-top: 10px;
+        text-align: center;
+        margin-left: 283px;
+        color: whitesmoke;
+        max-height: 200px;
+        max-height: 900px;
+
+
+
+    }
+
+    .image-logo {
+        height: 45px;
+        width: 180px;
+    }
+
+    .navbar {
+        padding-top: 1px;
+        background-color: #f7f8fa;
+        height: 50px;
+    }
+
+    .navbar-brand {
+        margin-left: 60px;
+    }
+
+    .nav-item {
+        margin-left: 16px;
+        margin-top: 11px;
+    }
+
+    .nav-link {
+        font-size: 13px;
+        color: black;
+        cursor: pointer;
+    }
+
+    .nav-link:hover {
+        background-color: blue;
+        color: white;
+        border-radius: 25px;
+        padding: -1px;
+    }
+
+    .nav-link:hover {
+        display: block;
+    }
+
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-item {
+        color: black;
+        font-size: 11px;
+        cursor: pointer;
+    }
+
+    .dropdown-item:hover {
+        background-color: blue;
+    }
+
+    /* .slider-img
+{
+    height: 491px;
+    width: 100%;
+} */
+
+    .marque {
+        background-color: #316dc3;
+        /* width: 100%; */
+        height: 28px;
+        display: block;
+        width: 800px;
+        margin: 7px auto 7px auto;
+    }
+
+    .abc {
+        /* background-color:red;  */
+        background-color: #f7f8fa; 
+        width: 100%;
+        height: 1140px;
+        margin-top: 5px;
+    }
+
+    .p {
+        text-align: center;
+        font-size: 30px;
+        margin: 10px auto 10px auto;
+        padding-top: 40px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    #para_div{
+        margin-top: -16px;
+        height: 680px;
+        background-color:#f7f8fa; 
+    
+      }
+      .para{
+        text-align: left ;
+        text-align: justify;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 30px 110px 0px 110px;
+        line-height: 1.9;
+        font-size: 15px;
+       color: #919191;
+        
+      }
+
+
+
+
+      .image
+{
+  margin-top: 55px;
+  margin-left: 0px;
+} 
+
+.counter-box
+{
+
+  font-size: 13px;
+  padding: 10px;
+}
+
+.counter-box .counter{
+
+  color: white;
+  font-size: 35px;
+}
+
+.counter{
+    font-size: 8px;
+}
+
+
+ 
+.box{
+
+    background-color: white;  width: 280px; height: 200px;  margin-left: 30px; margin-top: 10px ; 
+    text-align: center;
+    border-radius: 1.5px;
+    box-shadow: #dbdcdf;
+
+    
+    
+
+}
+
+.IMG-CARD{
+
+    padding-top: 30px;
+}
+
+
+.last{
+
+background-color:white;
+height: 650px;
+width: 100%;
+display: flex;
+
+
+
+}
+
+.rightSide{
+
+    background-color: white;
+    width: 67%;
+     height: 300px; 
+}
+
+.leftSide{
+
+    background-color:white;
+    width: 43%;
+    height: 300px;
+} 
+
+.hhit{
+
+    height: 70px;
+    width: 260px;
+    background-color: #f7f8fa;
+    margin-top: 50px;
+    margin-left: 100px;
+
+    }
+
+    .imghhit{
+
+margin-left: 12px;
+margin-top: 18px;
+
+    }
+
+
+    .title{
+
+        padding: 20px;
+        padding-top: 100px;
+        margin-top: 100px;
+        color: green;
+        font-weight: bold;
+    }
+
+/* --------------------------- */
+
+
+.container {
+    width: 20em;
+    height: 10em;
+    margin: 2em auto;
+    overflow: hidden;
+    background: #ffffff;
+    position: relative;
+}
+
+.slider-paragraph {
+    top: 1em;
+    position: relative;
+    box-sizing: border-box;
+    animation: slider 15s linear infinite;
+    list-style-type: none;
+    text-align: center;
+}
+
+.slider:hover {
+    animation-play-state: paused;
+}
+
+@keyframes slider {
+    0%   { top:   10em }
+    100% { top: -14em }
+}
+
+.blur .slider {
+  	margin: 0;
+    padding: 0 1em;
+    line-height: 1.5em;
+}
+
+.blur:before, .blur::before,
+.blur:after,  .blur::after {
+    left: 0;
+    z-index: 1;
+    content: '';
+    position: absolute;
+    width: 100%; 
+    height: 2em;
+    background-image: linear-gradient(180deg, #FFF, rgba(255,255,255,0));
+}
+
+.blur:after, .blur::after {
+    bottom: 0;
+    transform: rotate(180deg);
+}
+
+.blur:before, .blur::before {
+    top: 0;
+}
+
+p {
+  font-family: helvetica, arial, sans serif;
+}
